@@ -127,7 +127,7 @@ p {
 }
 
 .middle-container-text h3{
-    padding-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .middle-container-text p{
@@ -139,8 +139,26 @@ p {
     width: 50%;
 }
 
-.bottom-container {
-  background-color: crimson;
-  height: 200px;
-  width: 200px;
+.whatido{
+    background-color: #aad9bb;
+    flex-direction: column;
+}
+
+.whatido h2{
+    width: 100%;
+    text-align: center;
+    padding: 7%;
+}
+
+.idodesign{
+    display: flex;
+}
+
+.idodesign img{
+    border-radius: 50%;
+    width: 30%;
+}
+
+.idodesign-text{
+    text-align: center;
 }
