@@ -116,17 +116,27 @@ p {
   /* background-color: #F9F7C9; */
   background-color: white;
   display: flex;
+  justify-content: flex-end;
 }
 
 .middle-container-text{
     color: darkslategray;
-    padding: 7%;
+    align-self: center;
     text-align: center;
     size: 0.8rem;
 }
 
+.middle-container-text h3{
+    padding-bottom: 5%;
+}
+
+.middle-container-text p{
+    font-size: 0.7em;
+}
+
 .middle-container img {
-  width: 50%;
+    margin-top: 5%;
+    width: 50%;
 }
 
 .bottom-container {
